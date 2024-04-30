@@ -11,7 +11,7 @@ To measure the success of the methods, which we compared the GC content of our g
 
 ## Methods 
 
-To run HMM 
+To run HMM, run hmm.py. 
 
 To run GAN by itself, run the GAN_SequenceGeneration.ipynb file. It contains the full GAN architecture and the training and sequences generated. 
 
