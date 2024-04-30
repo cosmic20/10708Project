@@ -18,5 +18,7 @@ To run GAN by itself, run the GAN_SequenceGeneration.ipynb file. It contains the
 To run VAE by itself,run the torch_geom.ipynb file. It generates the de Bruijn graphs for all the sequences, and feeds into the VAE. You can specify the k-mer size that you want when creating the k-mer dictionary.
 
 To run VAE+GAN.
+1) genereate the fragmented sequences in the cell with the comment #FRAGMENTED SEQUENCES NOT FULL
+2) the second to last cell trains and generates sequences of the VAE_GAN model
 
 For assessment of the sequences generated, run Alignment_Testing_Algorithms.ipynb. It contains reading input files in Generated_Sequences/ and computes the GC Content of the COVID-19 Reference Genome and the average for each of the generated sequences. The file also contains the Smith-Waterman Algorithm for Local Alignment between each of the sequences to the reference genome. 
