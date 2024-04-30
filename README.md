@@ -15,7 +15,7 @@ To run HMM
 
 To run GAN by itself, run the GAN_SequenceGeneration.ipynb file. It contains the full GAN architecture and the training and sequences generated. 
 
-To run VAE by itself,
+To run VAE by itself,run the torch_geom.ipynb file. It generates the de Bruijn graphs for all the sequences, and feeds into the VAE. You can specify the k-mer size that you want when creating the k-mer dictionary.
 
 To run VAE+GAN.
 
